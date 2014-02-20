@@ -1,0 +1,13 @@
+diff --git a/c++/src/build-system/configure b/c++/src/build-system/configure
+index f58f2e5..6b38355 100755
+--- a/c++/src/build-system/configure
++++ b/c++/src/build-system/configure
+@@ -3021,7 +3021,7 @@ echo "$as_me: error: $x_arg:  requires value;  use --help to show usage" >&2;}
+       * )
+       { { echo "$as_me:$LINENO: error: $x_arg:  unknown option;  use --help to show usage" >&5
+ echo "$as_me: error: $x_arg:  unknown option;  use --help to show usage" >&2;}
+-   { (exit 1); exit 1; }; }
++      }
+       ;;
+    esac
+ done
